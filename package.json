@@ -1,9 +1,9 @@
 {
-  "name": "quasar-apexcharts",
+  "name": "super-computer-monitoring",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar Apex Charts",
-  "author": "Patrick Monteiro <eng.patrickmonteiro@gmail.com>",
+  "description": "A tool for monitoring your cluster",
+  "productName": "Supercomputer Monitoring",
+  "author": "kayagokalp <kayagokalp@sabanciuniv.edu>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
@@ -14,6 +14,8 @@
     "apexcharts": "^3.25.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "d3": "^7.2.1",
+    "d3-request": "^1.0.6",
     "quasar": "^1.16.0",
     "vue-apexcharts": "^1.6.0",
     "vue-i18n": "^8.18.2"

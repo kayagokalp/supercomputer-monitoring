@@ -6,7 +6,8 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Index.vue') },
       { path: 'dashboard', component: () => import('pages/Dashboard.vue'), meta: { skeleton: true } },
-      { path: 'dynamic', component: () => import('pages/Dynamic.vue'), meta: { skeleton: true } }
+      { path: 'superview', component: () => import('pages/Superview.vue'), meta: { skeleton: true } },
+      { path: 'customDashboard', name: 'customDashboard', component: () => import('pages/CustomDashboard.vue'), meta: { skeleton: true } }
     ]
   }
 ]

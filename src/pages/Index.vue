@@ -17,7 +17,7 @@
       </div>
       <div class="col-4">
           <p class="text-h3 text-white text-weight-bold full-width text-center">
-            Quasar ApexCharts
+            Awesome Monitoring Tool
           </p>
       </div>
     </div>

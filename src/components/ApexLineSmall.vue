@@ -2,7 +2,7 @@
   <card-base :bgColor="bgColorCard">
     <div class="row">
       <div class="col-12 text-h6 text-white">
-        Line
+        {{title}}
       </div>
       <div class="col-12">
       <apexchart ref="realtimeChart" type="line" height="90" :options="chartOptions" :series="series" />
@@ -10,7 +10,6 @@
     </div>
   </card-base>
 </template>
-
 <script>
 import CardBase from 'components/CardBase'
 export default {
@@ -21,8 +20,10 @@ export default {
   props: {
     bgColorCard: {
       type: String
-    }
+    },
+    title: String
   },
+
   data () {
     return {
       series: [{

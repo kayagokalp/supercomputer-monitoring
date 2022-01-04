@@ -13,7 +13,7 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar + ApexCharts
+          Supercomputer Monitoring
         </q-toolbar-title>
 
         <q-btn
@@ -33,7 +33,7 @@
       elevated
       behavior="mobile"
     >
-    <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px;">
+    <q-scroll-area style="height: calc(100% - 10px); margin-top: 10px;">
       <q-list class="text-white" >
         <q-item-label header>Menu</q-item-label>
         <q-item clickable to="/" exact active-class="text-purple-3">
@@ -52,41 +52,16 @@
             <q-item-label>Dashboard</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable to="/dynamic" exact active-class="text-purple-3">
+        <q-item clickable to="/superview" exact active-class="text-purple-3">
           <q-item-section avatar>
             <q-icon name="fas fa-sync" />
           </q-item-section>
           <q-item-section>
-            <q-item-label>Dynamic</q-item-label>
-          </q-item-section>
-        </q-item>
-        <q-item clickable tag="a" target="_blank" href="https://github.com/patrickmonteiro/quasar-apexcharts">
-          <q-item-section avatar>
-            <q-icon name="fab fa-github" />
-          </q-item-section>
-          <q-item-section>
-            <q-item-label>Github do Projeto</q-item-label>
-            <q-item-label class="text-white" caption>Repositório com o código fonte</q-item-label>
+            <q-item-label>SuperView</q-item-label>
           </q-item-section>
         </q-item>
       </q-list>
     </q-scroll-area>
-      <q-img class="absolute-top" src="/fundo-menu.jpg" style="height: 150px">
-          <div class="absolute-bottom bg-transparent">
-            <q-avatar size="56px" class="q-mb-sm">
-              <img src="/patrick_perfil.png">
-            </q-avatar>
-            <div class="text-weight-bold">Patrick Monteiro</div>
-            <div class="q-gutter-sm">
-              <q-btn dense color="white" text-color="primary" round size="sm" icon="fab fa-github"
-              type="a" href="https://github.com/patrickmonteiro" target="_blank" />
-              <q-btn dense color="white" text-color="primary" round size="sm" icon="fab fa-linkedin-in"
-              type="a" href="https://www.linkedin.com/in/engpatrickmonteiro/" target="_blank" />
-              <q-btn dense color="white" text-color="primary" round size="sm" icon="fab fa-twitter"
-              type="a" href="https://twitter.com/monteiropatrick" target="_blank" />
-            </div>
-          </div>
-        </q-img>
     </q-drawer>
 
     <q-page-container>

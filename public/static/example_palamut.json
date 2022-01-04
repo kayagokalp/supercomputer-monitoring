@@ -1,0 +1,769 @@
+{
+  "name": "PALAMUT",
+  "children": [
+   {
+    "name": "PALAMUT-CUDA-0",
+    "children": [
+     {
+      "name": "AMD 7742 - 1",
+      "children": [
+       {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "AMD 7742 - 2",
+      "children": [
+        {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 1",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 2",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 3",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 4",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 5",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 6",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 7",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 8",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "PALAMUT-CUDA-1",
+    "children": [
+     {
+      "name": "AMD 7742 - 1",
+      "children": [
+       {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "AMD 7742 - 2",
+      "children": [
+        {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 1",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 2",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 3",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 4",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 5",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 6",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 7",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 8",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "PALAMUT-CUDA-2",
+    "children": [
+     {
+      "name": "AMD 7742 - 1",
+      "children": [
+       {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "AMD 7742 - 2",
+      "children": [
+        {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 1",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 2",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 3",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 4",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 5",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 6",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 7",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 8",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "PALAMUT-CUDA-3",
+    "children": [
+     {
+      "name": "AMD 7742 - 1",
+      "children": [
+       {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "AMD 7742 - 2",
+      "children": [
+        {"name": "Core 1", "value": 1000},
+       {"name": "Core 2", "value": 1000},
+       {"name": "Core 3", "value": 1000},
+       {"name": "Core 4", "value": 1000},
+       {"name": "Core 5", "value": 1000},
+       {"name": "Core 6", "value": 1000},
+       {"name": "Core 7", "value": 1000},
+       {"name": "Core 8", "value": 1000},
+       {"name": "Core 9", "value": 1000},
+       {"name": "Core 10", "value": 1000},
+       {"name": "Core 11", "value": 1000},
+       {"name": "Core 12", "value": 1000},
+       {"name": "Core 13", "value": 1000},
+       {"name": "Core 14", "value": 1000},
+       {"name": "Core 15", "value": 1000},
+       {"name": "Core 16", "value": 1000},
+       {"name": "Core 17", "value": 1000},
+       {"name": "Core 18", "value": 1000},
+       {"name": "Core 19", "value": 1000},
+       {"name": "Core 20", "value": 1000},
+       {"name": "Core 21", "value": 1000},
+       {"name": "Core 22", "value": 1000},
+       {"name": "Core 23", "value": 1000},
+       {"name": "Core 24", "value": 1000},
+       {"name": "Core 25", "value": 1000},
+       {"name": "Core 26", "value": 1000},
+       {"name": "Core 27", "value": 1000},
+       {"name": "Core 28", "value": 1000},
+       {"name": "Core 29", "value": 1000},
+       {"name": "Core 30", "value": 1000},
+       {"name": "Core 31", "value": 1000},
+       {"name": "Core 32", "value": 1000},
+       {"name": "Core 33", "value": 1000},
+       {"name": "Core 34", "value": 1000},
+       {"name": "Core 35", "value": 1000},
+       {"name": "Core 36", "value": 1000},
+       {"name": "Core 37", "value": 1000},
+       {"name": "Core 38", "value": 1000},
+       {"name": "Core 39", "value": 1000},
+       {"name": "Core 40", "value": 1000},
+       {"name": "Core 41", "value": 1000},
+       {"name": "Core 42", "value": 1000},
+       {"name": "Core 43", "value": 1000},
+       {"name": "Core 44", "value": 1000},
+       {"name": "Core 45", "value": 1000},
+       {"name": "Core 46", "value": 1000},
+       {"name": "Core 47", "value": 1000},
+       {"name": "Core 48", "value": 1000},
+       {"name": "Core 49", "value": 1000},
+       {"name": "Core 50", "value": 1000},
+       {"name": "Core 51", "value": 1000},
+       {"name": "Core 52", "value": 1000},
+       {"name": "Core 53", "value": 1000},
+       {"name": "Core 54", "value": 1000},
+       {"name": "Core 55", "value": 1000},
+       {"name": "Core 56", "value": 1000},
+       {"name": "Core 57", "value": 1000},
+       {"name": "Core 58", "value": 1000},
+       {"name": "Core 59", "value": 1000},
+       {"name": "Core 60", "value": 1000},
+       {"name": "Core 61", "value": 1000},
+       {"name": "Core 62", "value": 1000},
+       {"name": "Core 63", "value": 1000},
+       {"name": "Core 64", "value": 1000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 1",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 2",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 3",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 4",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 5",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 6",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 7",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     },
+     {
+      "name": "NVIDIA A100 - 8",
+      "children": [
+       {"name": "InfoPanel", "value": 4000}
+      ]
+     }
+    ]
+   }
+  ]
+ }
