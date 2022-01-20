@@ -7,6 +7,7 @@
      {
       "name": "Intel(R) Xeon(R) Gold 6152 CPU @ 2.10GHz - 1",
       "children": [
+       {"name": "Core 0", "value": 1000},
        {"name": "Core 1", "value": 1000},
        {"name": "Core 2", "value": 1000},
        {"name": "Core 3", "value": 1000},
@@ -93,8 +94,8 @@
        {"name": "Core 84", "value": 1000},
        {"name": "Core 85", "value": 1000},
        {"name": "Core 86", "value": 1000},
-       {"name": "Core 87", "value": 1000},
-       {"name": "Core 88", "value": 1000}
+       {"name": "Core 87", "value": 1000}
+       
       ]
      },
      {

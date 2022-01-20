@@ -9,7 +9,7 @@
           <!-- Generate each of the visible squares at a given zoom level (the current selected node) -->
           <g
             class="children"
-            v-for="(children, index) in selectedNode._children"
+            v-for="(children) in selectedNode._children"
             :key="'c_' + children.id"
             >
 
@@ -41,7 +41,7 @@
               :y="y(children.y0)"
               :width="x(children.x1 - children.x0 + children.parent.x0)"
               :height="y(children.y1 - children.y0 + children.parent.y0)"
-              :style="{ fill: color[index%1] }"
+              :style="{ fill: color[getIndexFromID(children.id)]}"
               >
 
               <!-- The title attribute -->
@@ -61,7 +61,7 @@
 
             <text
               dy="2.25em"
-              :key="'t_' + children.id"
+              :key="'t2_' + children.id"
               :x="x(children.x0) + 6"
               :y="y(children.y0) + 6"
               style="fill-opacity: 1;"
@@ -137,6 +137,11 @@ export default {
   // You can do whatever when the selected node changes
   watch: {
     selectedNode (newData, oldData) {
+      if (newData._children) {
+        for (let i = 0; i < newData._children.length; i++) {
+          this.color.push(this.mapColor(0))
+        }
+      }
       console.log('The selected node changed...')
     }
   },
@@ -148,15 +153,10 @@ export default {
     } = this.$refs.xpage.$el.getBoundingClientRect()
     this.width = width
     this.height = height
-    setInterval(this.get_data, 1000)
+    setInterval(this.get_data, 3000)
     var that = this
     // An array with colors
-    that.color = [
-      `#023fa5`, `#7d87b9`, `#bec1d4`, `#d6bcc0`, `#bb7784`, `#8e063b`, `#4a6fe3`, `#8595e1`,
-      `#b5bbe3`, `#e6afb9`, `#e07b91`, `#d33f6a`, `#11c638`, `#8dd593`, `#c6dec7`, `#ead3c6`,
-      `#f0b98d`, `#ef9708`, `#0fcfc0`, `#9cded6`, `#d5eae7`, `#f3e1eb`, `#f6c4e1`, `#f79cd4`
-    ]
-
+    that.color = []
     // loads the data and calls the initialization methods
     d3.json('../static/example_dolap.json',
       function (error, data) {
@@ -199,6 +199,9 @@ export default {
         .round(false)
         .paddingInner(0)
     },
+    rectColor () {
+      return id => { return { fill: this.color[id % 24] } }
+    },
     // The current selected node
     selectedNode () {
       let node = null
@@ -223,6 +226,14 @@ export default {
     }
   },
   methods: {
+    mapColor (value) {
+      var hue = ((1 - value) * 120).toString(10)
+      return ['hsl(', hue, ',100%,50%)'].join('')
+    },
+    getIndexFromID (idSTR) {
+      var matches = idSTR.match(/\d+$/)
+      return parseInt(matches[0], 10)
+    },
     // Called once, to create the hierarchical data representation
     initialize () {
       let that = this
@@ -241,10 +252,31 @@ export default {
       }
     },
 
-    get_data () {
-      console.log(this.$refs.rect[0])
-      // let randomColor = Math.floor(Math.random() * 24)
-      // this.$refs.rect[0].style = `fill: color(${randomColor})`
+    async get_data () {
+      let llcMiss = await this.$axios.get('/api/v1/usage')
+      let totalRef = await this.$axios.get('/api/v1/usaget2')
+      if (llcMiss.data && totalRef.data) {
+        for (let i = 0; i < llcMiss.data.length; i++) {
+          if (llcMiss.data[i].mean != null && totalRef.data[i].mean != null) {
+            let keyList = Object.keys(llcMiss.data[i])
+            for (let j = 1; j < keyList.length; j++) {
+              this.color[j - 1] = this.mapColor(llcMiss.data[i][keyList[j]] / totalRef.data[i][keyList[j]])
+              if (llcMiss.data[i][keyList[j]] / totalRef.data[i][keyList[j]] > 1) {
+                console.log('bigger than 1')
+              }
+            }
+          }
+        }
+      }
+      // console.log(this.color)
+      /*
+      let randomColor = (Math.random())
+      this.color[2] = this.mapColor(randomColor)
+      this.color[0] = this.mapColor(randomColor)
+      */
+      // console.log(this.selectedNode._children.length)
+      // this.color.push(this.mapColor(0.2))
+      this.$forceUpdate()
     },
     // Calculates the accumulated value (sum of children values) of a node - its weight,
     // represented afterwards in the area of its square
