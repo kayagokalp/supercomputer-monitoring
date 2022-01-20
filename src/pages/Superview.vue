@@ -34,13 +34,14 @@
             <rect
               class="parent"
               v-on:click="selectNode"
+              ref=rect
               :id="children.id"
               :key="children.id"
               :x="x(children.x0)"
               :y="y(children.y0)"
               :width="x(children.x1 - children.x0 + children.parent.x0)"
               :height="y(children.y1 - children.y0 + children.parent.y0)"
-              :style="{ fill: color(index) }"
+              :style="{ fill: color[index%1] }"
               >
 
               <!-- The title attribute -->
@@ -147,13 +148,14 @@ export default {
     } = this.$refs.xpage.$el.getBoundingClientRect()
     this.width = width
     this.height = height
+    setInterval(this.get_data, 1000)
     var that = this
     // An array with colors
-    that.color = d3.scaleOrdinal([
+    that.color = [
       `#023fa5`, `#7d87b9`, `#bec1d4`, `#d6bcc0`, `#bb7784`, `#8e063b`, `#4a6fe3`, `#8595e1`,
       `#b5bbe3`, `#e6afb9`, `#e07b91`, `#d33f6a`, `#11c638`, `#8dd593`, `#c6dec7`, `#ead3c6`,
       `#f0b98d`, `#ef9708`, `#0fcfc0`, `#9cded6`, `#d5eae7`, `#f3e1eb`, `#f6c4e1`, `#f79cd4`
-    ])
+    ]
 
     // loads the data and calls the initialization methods
     d3.json('../static/example_dolap.json',
@@ -237,6 +239,12 @@ export default {
         that.rootNode.y1 = that.height
         that.rootNode.depth = 0
       }
+    },
+
+    get_data () {
+      console.log(this.$refs.rect[0])
+      // let randomColor = Math.floor(Math.random() * 24)
+      // this.$refs.rect[0].style = `fill: color(${randomColor})`
     },
     // Calculates the accumulated value (sum of children values) of a node - its weight,
     // represented afterwards in the area of its square
