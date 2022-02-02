@@ -58,18 +58,6 @@
               >
               {{ children.data.name }}
             </text>
-
-            <text
-              dy="2.25em"
-              :key="'t2_' + children.id"
-              :x="x(children.x0) + 6"
-              :y="y(children.y0) + 6"
-              style="fill-opacity: 1;"
-              >
-
-              {{ children.value }}
-            </text>
-
           </g>
         </transition-group>
 
