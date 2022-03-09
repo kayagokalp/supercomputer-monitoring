@@ -16,6 +16,16 @@
           Supercomputer Monitoring
         </q-toolbar-title>
 
+        <q-btn-dropdown color="#36384c" label="Coloring Options" v-if="isSuperView()">
+      <q-list>
+        <q-item clickable v-close-popup @click="onItemClick">
+          <q-item-section>
+            <q-item-label>Cache Miss</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
+    </q-btn-dropdown>
+
         <q-btn
           style="background: #36384c"
           @click="$q.fullscreen.toggle()"
@@ -80,7 +90,14 @@ export default {
     }
   },
   methods: {
-    openURL
+    openURL,
+    isSuperView () {
+      if (this.$route.path === '/superview') {
+        return true
+      } else {
+        return false
+      }
+    }
   }
 }
 </script>
