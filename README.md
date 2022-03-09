@@ -1,3 +1,8 @@
+## If quasar-cli is not installed
+```bash
+npm install -g @quasar/cli
+```
+
 ## Install the dependencies
 ```bash
 npm install
